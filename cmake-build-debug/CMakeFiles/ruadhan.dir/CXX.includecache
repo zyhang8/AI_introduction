@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+L:/github/workspace/AI_introduction/genetic.cpp
+iostream
+-
+vector
+-
+cmath
+-
+algorithm
+-
+ctime
+-
+

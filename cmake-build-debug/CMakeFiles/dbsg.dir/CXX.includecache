@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+L:/github/workspace/AI_introduction/astar.cpp
+iostream
+-
+map
+-
+queue
+-
+algorithm
+-
+string
+-
+
