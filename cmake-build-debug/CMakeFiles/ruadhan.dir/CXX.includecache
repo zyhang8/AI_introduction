@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-L:/github/workspace/AI_introduction/genetic.cpp
+L:/github/workspace/AI_introduction/astar.cpp
 iostream
 -
-vector
+map
 -
-cmath
+queue
 -
 algorithm
 -
-ctime
+string
 -
 

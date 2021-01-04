@@ -1,5 +1,5 @@
 //
-// Created by thinkpad on 2021/1/4.
+// Created by ruadhan on 2021/1/4.
 //A*算法求解八数码问题
 
 #include<iostream>

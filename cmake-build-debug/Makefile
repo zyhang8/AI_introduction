@@ -122,32 +122,32 @@ ruadhan/fast:
 	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/build
 .PHONY : ruadhan/fast
 
-genetic.obj: genetic.cpp.obj
+astar.obj: astar.cpp.obj
 
-.PHONY : genetic.obj
+.PHONY : astar.obj
 
 # target to build an object file
-genetic.cpp.obj:
-	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/genetic.cpp.obj
-.PHONY : genetic.cpp.obj
+astar.cpp.obj:
+	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/astar.cpp.obj
+.PHONY : astar.cpp.obj
 
-genetic.i: genetic.cpp.i
+astar.i: astar.cpp.i
 
-.PHONY : genetic.i
+.PHONY : astar.i
 
 # target to preprocess a source file
-genetic.cpp.i:
-	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/genetic.cpp.i
-.PHONY : genetic.cpp.i
+astar.cpp.i:
+	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/astar.cpp.i
+.PHONY : astar.cpp.i
 
-genetic.s: genetic.cpp.s
+astar.s: astar.cpp.s
 
-.PHONY : genetic.s
+.PHONY : astar.s
 
 # target to generate assembly for a file
-genetic.cpp.s:
-	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/genetic.cpp.s
-.PHONY : genetic.cpp.s
+astar.cpp.s:
+	$(MAKE) -f CMakeFiles\ruadhan.dir\build.make CMakeFiles/ruadhan.dir/astar.cpp.s
+.PHONY : astar.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... ruadhan
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... genetic.obj
-	@echo ... genetic.i
-	@echo ... genetic.s
+	@echo ... astar.obj
+	@echo ... astar.i
+	@echo ... astar.s
 .PHONY : help
 
 

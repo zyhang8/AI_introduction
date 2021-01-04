@@ -56,27 +56,27 @@ include CMakeFiles/ruadhan.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ruadhan.dir/flags.make
 
-CMakeFiles/ruadhan.dir/genetic.cpp.obj: CMakeFiles/ruadhan.dir/flags.make
-CMakeFiles/ruadhan.dir/genetic.cpp.obj: ../genetic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=L:\github\workspace\AI_introduction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ruadhan.dir/genetic.cpp.obj"
-	L:\software\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ruadhan.dir\genetic.cpp.obj -c L:\github\workspace\AI_introduction\genetic.cpp
+CMakeFiles/ruadhan.dir/astar.cpp.obj: CMakeFiles/ruadhan.dir/flags.make
+CMakeFiles/ruadhan.dir/astar.cpp.obj: ../astar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=L:\github\workspace\AI_introduction\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ruadhan.dir/astar.cpp.obj"
+	L:\software\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ruadhan.dir\astar.cpp.obj -c L:\github\workspace\AI_introduction\astar.cpp
 
-CMakeFiles/ruadhan.dir/genetic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ruadhan.dir/genetic.cpp.i"
-	L:\software\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E L:\github\workspace\AI_introduction\genetic.cpp > CMakeFiles\ruadhan.dir\genetic.cpp.i
+CMakeFiles/ruadhan.dir/astar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ruadhan.dir/astar.cpp.i"
+	L:\software\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E L:\github\workspace\AI_introduction\astar.cpp > CMakeFiles\ruadhan.dir\astar.cpp.i
 
-CMakeFiles/ruadhan.dir/genetic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ruadhan.dir/genetic.cpp.s"
-	L:\software\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S L:\github\workspace\AI_introduction\genetic.cpp -o CMakeFiles\ruadhan.dir\genetic.cpp.s
+CMakeFiles/ruadhan.dir/astar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ruadhan.dir/astar.cpp.s"
+	L:\software\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S L:\github\workspace\AI_introduction\astar.cpp -o CMakeFiles\ruadhan.dir\astar.cpp.s
 
 # Object files for target ruadhan
 ruadhan_OBJECTS = \
-"CMakeFiles/ruadhan.dir/genetic.cpp.obj"
+"CMakeFiles/ruadhan.dir/astar.cpp.obj"
 
 # External object files for target ruadhan
 ruadhan_EXTERNAL_OBJECTS =
 
-ruadhan.exe: CMakeFiles/ruadhan.dir/genetic.cpp.obj
+ruadhan.exe: CMakeFiles/ruadhan.dir/astar.cpp.obj
 ruadhan.exe: CMakeFiles/ruadhan.dir/build.make
 ruadhan.exe: CMakeFiles/ruadhan.dir/linklibs.rsp
 ruadhan.exe: CMakeFiles/ruadhan.dir/objects1.rsp

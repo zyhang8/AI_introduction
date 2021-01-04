@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ruadhan.dir/genetic.cpp.obj"
+  "CMakeFiles/ruadhan.dir/astar.cpp.obj"
   "libruadhan.dll.a"
   "ruadhan.exe"
   "ruadhan.exe.manifest"

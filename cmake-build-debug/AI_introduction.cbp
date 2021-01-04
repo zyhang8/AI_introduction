@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="L:/github/workspace/AI_introduction/genetic.cpp">
+		<Unit filename="L:/github/workspace/AI_introduction/astar.cpp">
 			<Option target="ruadhan"/>
 		</Unit>
 		<Unit filename="L:/github/workspace/AI_introduction/CMakeLists.txt">
